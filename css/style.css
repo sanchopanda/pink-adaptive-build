@@ -904,21 +904,16 @@ body {
 @media (min-width: 960px) {
   .no-webp .page-header,
   .no-js .page-header {
-    background: url("../img/iphone-hand-desktop@1x.png") no-repeat bottom, url("../img/bg-back-desktop@1x.jpg") no-repeat bottom, #1e2730; }
+    background: url("../img/iphone-hand-desktop@1x.png") no-repeat bottom, url("../img/bg-back-desktop@1x.jpg") no-repeat bottom; }
   .webp .page-header {
-<<<<<<< HEAD
     background: url("../img/iphone-hand-desktop@1x.webp") no-repeat bottom, url("../img/bg-back-desktop@1x.webp") no-repeat bottom; }
   .page-header--form .title {
     width: 750px;
     padding: 90px 0; } }
-=======
-    background: url("../img/iphone-hand-desktop@1x.webp") no-repeat bottom, url("../img/bg-back-desktop@1x.webp") no-repeat bottom, #1e2730; } }
->>>>>>> a3e4e3317fc0d4c3adb96ba02c08740b22ada30a
 
 @media (min-width: 960px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 960px) and (min-resolution: 1.5dppx) {
   .no-webp .page-header,
   .no-js .page-header {
-<<<<<<< HEAD
     background: url("../img/iphone-hand-desktop@1x.png") no-repeat bottom, url("../img/bg-back-desktop@1x.jpg") no-repeat bottom, #1e2730; }
   .webp .page-header {
     background: url("../img/iphone-hand-desktop@1x.webp") no-repeat bottom, url("../img/bg-back-desktop@1x.webp") no-repeat bottom, #1e2730; } }
@@ -926,8 +921,6 @@ body {
 @media (min-width: 960px) and (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 960px) and (min-resolution: 1.5dppx) and (min-resolution: 1.5dppx) {
   .no-webp .page-header,
   .no-js .page-header {
-=======
->>>>>>> a3e4e3317fc0d4c3adb96ba02c08740b22ada30a
     background: url("../img/iphone-hand-desktop@1x.png") no-repeat bottom, url("../img/bg-back-desktop@2x.jpg") no-repeat bottom, #1e2730; }
   .webp .page-header {
     background: url("../img/iphone-hand-desktop@1x.webp") no-repeat bottom, url("../img/bg-back-desktop@2x.webp") no-repeat bottom, #1e2730; }
@@ -968,9 +961,9 @@ body {
     display: none; }
   .no-webp .page-header--form,
   .no-js .page-header--form {
-    background: url("../img/bg-back-desktop@2x.jpg") no-repeat, #1e2730; }
+    background: url("../img/bg-back-desktop@2x.jpg") no-repeat; }
   .webp .page-header--form {
-    background: url("../img/bg-back-desktop@2x.webp") no-repeat, #1e2730; }
+    background: url("../img/bg-back-desktop@2x.webp") no-repeat; }
   .no-webp .page-header--form,
   .no-js .page-header--form,
   .webp .page-header--form {
@@ -1461,8 +1454,7 @@ body {
             flex-grow: 0; } }
 
 .map {
-  position: relative;
-  background-color: #f3efe3; }
+  position: relative; }
 
 .triangle {
   display: block;
